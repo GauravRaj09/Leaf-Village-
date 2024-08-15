@@ -327,6 +327,9 @@ border: 1px solid rgba(255, 255, 255, 0.44);
   font-size: 145%;
   font-family: Tahoma, sans-serif;
   transition:  .2s ease-in;
+      -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
 }
 #txt002{
   display: block;

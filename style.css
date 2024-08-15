@@ -459,3 +459,18 @@ footer{
   color: rgb(255, 0, 0);
   transform: scale(1.2);
 }
+#og{
+  width: 100%;
+  display: block;
+  position: relative;
+  top: 110px;
+}
+#og2{
+  text-align: center;
+  color: cyan;
+  background-color: rgba(0, 0, 0, 0.356);
+  position: relative;
+  bottom: 0px;
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+}

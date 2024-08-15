@@ -433,3 +433,29 @@ border: 1px solid rgba(255, 255, 255, 0.44);
   -webkit-transform: scale(1.5); 
   transform: scale(1.2);
 }
+footer{
+  height: 200px;
+  background-image: url("https://a-static.besthdwallpaper.com/naruto-s-itachi-uchiha-wallpaper-3840x1080-6551_75.jpg");
+  background-size: cover;
+}
+
+#right-nav{
+  height: 60px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+#right-nav a{
+  color: white;
+  text-decoration:none;
+}
+#iglogo, #github{
+  margin: 10px 12px;
+  font-weight: bolder;
+  transition: .1s;
+}
+
+#iglogo:hover, #github:hover {
+  color: rgb(255, 0, 0);
+  transform: scale(1.2);
+}

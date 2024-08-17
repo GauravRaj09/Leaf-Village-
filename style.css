@@ -230,6 +230,51 @@ body{
   background-size: cover;
   height: 200%;
 }
+#fixed{
+  position: fixed;
+  text-align: center;
+  z-index: 100;
+  height: fit-content;
+  width: fit-content;
+  padding: 10px 8px 10px 5px;
+  background-color: transparent;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  top: 40%;
+}
+#fixed a{
+  color: white;
+  text-decoration: none;
+  
+}
+#fixed p{
+  display: block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 1px solid rgba(117, 117, 117, 0);
+  padding: 2px;
+  color: black;
+  border-radius: 20px;
+  transition: ease-in.2s;
+  margin: 5px;
+}
+#fixed p:hover{
+  border: 1px solid rgb(59, 59, 59);
+  scale: 1.2;
+}
+
+#u{
+  background-color: #ff3939;
+}
+
+#u2{
+  background-color: #ffea00;
+}
+#s{
+  background-color: #00aaff;
+}
 
 #Uchiha-Banner, #Uzumaki-Banner, #Senju-Banner{
   background-color: rgba(255, 0, 0, 0);

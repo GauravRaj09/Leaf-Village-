@@ -244,6 +244,8 @@ body{
   border-bottom-right-radius: 20px;
   border-top-right-radius: 20px;
   top: 40%;
+  display: flex;
+  flex-direction: column;
 }
 #fixed a{
   color: white;
